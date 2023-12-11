@@ -1,6 +1,6 @@
 import './Values.css'
 import '../Media-Query.css'
-import { useContext, useState } from "react"
+import { useContext } from "react"
 import { ShopContext } from "../../Context/ShopContext"
 import { Link } from "react-router-dom"
 

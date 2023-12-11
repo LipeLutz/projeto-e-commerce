@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Header.css'
 import './Media-Query.css'
-import { useState } from 'react'
 
 export const Header = ({ modalOptions }) =>{
     return(

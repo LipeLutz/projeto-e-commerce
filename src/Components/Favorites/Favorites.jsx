@@ -62,32 +62,6 @@ export const Favorites = () =>{
                         <h1 id='NAFavoriteProduct'>Nenhum produto adicionado aos favoritos :(</h1>
             )}
 
-            {/*
-            <div>
-                <button id='btnLixeiraFav' onClick={() => removeFromFavs()} >
-                    <span className="material-symbols-outlined" id='lixeiraFav'>
-                        delete
-                    </span>
-                </button>
-            </div>
-
-            <div id="divFavoriteIMG">
-                <img src="" alt="" id="favoriteIMG"/>
-            </div>
-
-            <div id="FavoriteItemDescription">
-                <h1>Título</h1>
-
-                <p>Preço</p>
-                <p>Parcelamento</p>
-                <p>Avaliação</p>
-
-                <div>
-                    <button >Adicionar ao Carrinho</button>
-                    <button>Comprar Agora</button>
-                </div>
-            </div>
-            */}
         </div>
     )
 }

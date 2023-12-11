@@ -113,7 +113,6 @@ export const CartPage = ( ) =>{
                 <div id='cupomDeDesconto'>
                     <h3 id='h3Cupom'>Cupom de desconto </h3>
                     <input type="text" id='inputCupom' onChange={(e) => setCupom(e.target.value)}/>
-                    {/* <input type='button'  id='buttonCupom' value="Aplicar"/> */}
                 </div>
             </div>
         </div>

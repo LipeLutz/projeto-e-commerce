@@ -1,16 +1,14 @@
-import { useContext, useEffect, useState } from 'react'
+import { useContext, useState } from 'react'
 
 import './Cart.css'
 import '../Media-Query.css'
 
-import { useFetch } from '../../../Utils/useFetch'
 import { ShopContext } from '../../Context/ShopContext'
 import { Link } from 'react-router-dom'
 
 export const CartProduct = ( { product } ) =>{
 
     const { removeFromCart, checkedOrNot } = useContext(ShopContext)
-    const [quantidade, setQuantidade] = useState(0)
 
     /*
     const aumentaQuantidade = () =>{
